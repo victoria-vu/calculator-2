@@ -31,3 +31,6 @@ while True:
 
         elif tokens[0] == "square":
             print(square(float(tokens[1])))
+
+        elif tokens[0] == "cube":
+            print(cube(float(tokens[1])))

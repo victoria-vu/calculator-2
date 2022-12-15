@@ -10,3 +10,12 @@ while True:
     tokens = user_input.split(" ")
     
     #print(tokens)     # Testing to see if variable works
+
+    if tokens[0] == "q":
+        print("You have exited the calculator!")
+        break
+    
+    else:
+        
+        if tokens[0] == "+":
+            print(add(float(tokens[1]), float(tokens[2])))
